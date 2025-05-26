@@ -15,7 +15,7 @@ header {
   align-items: center;
   gap: 0.5rem;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 
 /* Botón hamburguesa */
@@ -112,21 +112,25 @@ nav ul li a {
     display: flex !important;
     position: static;
     height: 90px;
+    width: 70%;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 0;
     transform: translate(0%);
-    gap: 2rem;
   }
 
   nav ul {
     flex-direction: row;
-    gap: 1rem;
     margin: 0;
   }
 
   .nav-buttons-container {
     flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+  }
+  .nav-buttons-container button {
+    width: 100%;
   }
 }
