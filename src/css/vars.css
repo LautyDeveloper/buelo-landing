@@ -6,8 +6,8 @@
   --primaryFontColor: #333333;
   --secondaryFontColor: #666666;
 
-  --shiftsColor: #d1f5ff;
-  --medicineColor: #d1f5ff;
-  --notesColor: #d1f5ff;
-  --accesColor: #d1f5ff;
+  --shiftsCircleColor: #d0e6ff;
+  --medicineCircleColor: #d6f5e3;
+  --notesCircleColor: #e8deff;
+  --loveCircleColor: #ffacac;
 }
