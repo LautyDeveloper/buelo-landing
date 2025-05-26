@@ -38,7 +38,7 @@
 
 .hero-container .hero-information .information-text h1 {
   font-size: 2.3rem;
-  color: rgb(7, 64, 103);
+  color: var(--destacatedText);
 }
 
 .hero-container .hero-information .information-text p {
@@ -59,7 +59,7 @@
   border-radius: 10px;
   border: none;
   outline: none;
-  background-color: purple;
+  background-color: var(--CTAColor);
   color: white;
   font-weight: 600;
   font-size: 1.3rem;

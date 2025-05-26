@@ -1,4 +1,8 @@
 #root {
   --backgroundColor: #f9fafb;
   --sectionBackgroundColor: #eef3f7;
+  --destacatedText: #074067;
+  --CTAColor: #2874c0;
+  --primaryFontColor: #333333;
+  --secondaryFontColor: #666666;
 }

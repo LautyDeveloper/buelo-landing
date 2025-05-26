@@ -9,7 +9,7 @@
   border-radius: 10px;
   text-align: center;
   padding: 0 10px;
-  background-color: #eef3f7;
+  background-color: var(--sectionBackgroundColor);
 }
 .about-us-card .card-icon-container {
   width: 100px;
