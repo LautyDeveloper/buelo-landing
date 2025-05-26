@@ -1,9 +1,12 @@
 import "./App.css";
+import Hero from "./views/Hero/Hero";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <></>;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 }
 
 export default App;
