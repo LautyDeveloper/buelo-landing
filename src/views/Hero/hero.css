@@ -79,6 +79,10 @@
   .hero-container .hero-information {
     width: 45%;
   }
+  .hero-container .hero-information .information-text {
+    text-align: start;
+  }
+
   .hero-container .hero-decoration {
     display: flex;
     justify-content: flex-end;
@@ -86,7 +90,6 @@
     width: 45%;
     height: 100%;
   }
-
   .circle-1 {
     position: relative;
     width: 400px;
@@ -94,7 +97,6 @@
     background-color: #95ecff;
     border-radius: 50%;
   }
-
   .circle-2 {
     position: absolute;
     top: 50%;
@@ -110,8 +112,6 @@
     justify-content: center;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   }
-
-  /* mini circulitos */
   .mini-circle {
     position: absolute;
     width: 100px;
@@ -124,26 +124,21 @@
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-
-  /* posiciones específicas */
   .calendar {
     top: 0%;
     left: 0%;
     background-color: var(--shiftsCircleColor);
   }
-
   .note {
     top: 5%;
     right: 5%;
     background-color: var(--notesCircleColor);
   }
-
   .love {
     bottom: 0;
     right: 10%;
     background-color: var(--loveCircleColor);
   }
-
   .medicine {
     bottom: 10%;
     left: 5%;
