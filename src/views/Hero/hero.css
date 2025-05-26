@@ -8,7 +8,8 @@
   place-items: center;
   width: 100vw;
   min-height: calc(100vh - 90px);
-}
+  background: #d1f5ff;
+  background: linear-gradient(180deg, rgba(209, 245, 255, 1) 0%, rgba(238, 243, 247, 1) 100%);}
 
 .hero-container .hero-information{
   display: flex;
@@ -32,7 +33,8 @@
 
 .hero-container .hero-information .information-text h1{
   font-size: 2.3rem;
-}
+  color: rgb(7, 64, 103);
+} 
 
 .hero-container .hero-information .information-text p{
   font-size: 1.5rem;
