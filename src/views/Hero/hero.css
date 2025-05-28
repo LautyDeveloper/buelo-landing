@@ -1,17 +1,26 @@
 .container {
-  width: 100vw;
+  max-width: 100vw;
   height: 100vh;
 }
 
-.hero-container{
+.hero-container {
   display: grid;
   place-items: center;
-  width: 100vw;
+  width: 100%;
   min-height: calc(100vh - 90px);
   background: #d1f5ff;
-  background: linear-gradient(180deg, rgba(209, 245, 255, 1) 0%, rgba(238, 243, 247, 1) 100%);}
+  background: linear-gradient(
+    180deg,
+    rgba(209, 245, 255, 1) 0%,
+    rgba(238, 243, 247, 1) 100%
+  );
+}
 
-.hero-container .hero-information{
+.hero-container .hero-decoration {
+  display: none;
+}
+
+.hero-container .hero-information {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,7 +30,7 @@
   gap: 100px;
 }
 
-.hero-container .hero-information .information-text{
+.hero-container .hero-information .information-text {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -31,16 +40,16 @@
   gap: 20px;
 }
 
-.hero-container .hero-information .information-text h1{
+.hero-container .hero-information .information-text h1 {
   font-size: 2.3rem;
-  color: rgb(7, 64, 103);
-} 
+  color: var(--destacatedText);
+}
 
-.hero-container .hero-information .information-text p{
+.hero-container .hero-information .information-text p {
   font-size: 1.5rem;
 }
 
-.hero-container .hero-information .information-buttons{
+.hero-container .hero-information .information-buttons {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -48,14 +57,91 @@
   gap: 20px;
 }
 
-.hero-container .hero-information .information-buttons button{
+.hero-container .hero-information .information-buttons button {
   padding: 5px;
   width: 50%;
   border-radius: 10px;
   border: none;
   outline: none;
-  background-color: purple;
+  background-color: var(--CTAColor);
   color: white;
   font-weight: 600;
   font-size: 1.3rem;
+}
+
+@media (min-width: 768px) {
+  .hero-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .hero-container .hero-information {
+    width: 45%;
+  }
+  .hero-container .hero-information .information-text {
+    text-align: start;
+  }
+
+  .hero-container .hero-decoration {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+  }
+  .circle-1 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #95ecff;
+    border-radius: 50%;
+  }
+  .circle-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--CTAColor);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  .mini-circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .calendar {
+    top: 0%;
+    left: 0%;
+    background-color: var(--shiftsCircleColor);
+  }
+  .note {
+    top: 5%;
+    right: 5%;
+    background-color: var(--notesCircleColor);
+  }
+  .love {
+    bottom: 0;
+    right: 10%;
+    background-color: var(--loveCircleColor);
+  }
+  .medicine {
+    bottom: 10%;
+    left: 5%;
+    background-color: var(--medicineCircleColor);
+  }
 }

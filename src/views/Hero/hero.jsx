@@ -19,6 +19,17 @@ export default function Hero() {
             <button>Ver Demo</button>
           </div>
         </div>
+        <div className="hero-decoration">
+          <div className="circle-1">
+            <div className="circle-2">👨‍👩‍👧‍👦</div>
+
+            {/* mini circulitos */}
+            <div className="mini-circle calendar">📅</div>
+            <div className="mini-circle note">💬</div>
+            <div className="mini-circle love">❤️</div>
+            <div className="mini-circle medicine">💊</div>
+          </div>
+        </div>
       </div>
     </div>
   );

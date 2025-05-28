@@ -1,0 +1,18 @@
+#root {
+  --backgroundColor: #f9fafb;
+  --sectionBackgroundColor: #eef3f7;
+  --destacatedText: #074067;
+  --CTAColor: #2874c0;
+  --primaryFontColor: #333333;
+  --secondaryFontColor: #666666;
+
+  --shiftsCircleColor: #d0e6ff;
+  --medicineCircleColor: #d6f5e3;
+  --notesCircleColor: #e8deff;
+  --loveCircleColor: #ffacac;
+
+  --testimonialTitleColor: #1f5b2d;
+  --testimonialBackgroundColor: #dbfcf1;
+  --testimonialEmojiColor: #79ffb1;
+  --testimonialBorderColor: #047900;
+}
