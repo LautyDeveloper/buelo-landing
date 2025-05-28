@@ -4,6 +4,7 @@ import Hero from "./views/Hero/Hero";
 import "./css/vars.css";
 import Testimonials from "./views/testimonials/testimonials";
 import Separator from "./views/separator/separator";
+import Footer from "./views/footer/footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <AboutUs />
       <Testimonials />
       <Separator />
+      <Footer />
     </>
   );
 }
