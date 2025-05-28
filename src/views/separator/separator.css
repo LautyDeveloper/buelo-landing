@@ -1,0 +1,57 @@
+.separator {
+  max-width: 100vw;
+  height: auto;
+  padding: 30px 20px;
+  display: grid;
+  place-items: center;
+  gap: 30px;
+}
+
+.separator .separator-header {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  gap: 10px;
+  width: 100%;
+}
+.separator .separator-header h3 {
+  font-size: 2rem;
+  color: var(--destacatedText);
+}
+.separator .separator-header p {
+  color: var(--secondaryFontColor);
+  font-size: 1.5rem;
+}
+
+.separator .separator-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.separator .separator-buttons-container button {
+  padding: 15px 20px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background-color: var(--CTAColor);
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .separator .separator-header h3 {
+    font-size: 3rem;
+  }
+  .separator .separator-header p {
+    font-size: 1.8rem;
+  }
+  .separator .separator-buttons-container {
+    gap: 50px;
+  }
+  .separator .separator-buttons-container button {
+    font-size: 1.2rem;
+    padding: 10px 15px;
+  }
+}
