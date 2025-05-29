@@ -67,8 +67,26 @@ footer .footer-content .list-container ul li a {
 }
 
 footer .aside-footer {
-  padding: 30px 10px;
-  font-size: 1.2rem;
+  padding: 40px 10px 20px 10px;
+  font-size: 1.4rem;
   text-align: center;
   border-top: 2px solid #979b9e;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  footer .footer-content {
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 40px;
+    gap: 70px;
+  }
+  footer .footer-content .main-footer {
+    align-items: flex-start;
+    width: 30%;
+    text-align: start;
+  }
+  footer .footer-content .list-container {
+    width: 15%;
+  }
 }
