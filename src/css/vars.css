@@ -3,6 +3,7 @@
   --sectionBackgroundColor: #eef3f7;
   --destacatedText: #074067;
   --CTAColor: #2874c0;
+  --CTAHoveredColor: #2362a0;
   --primaryFontColor: #333333;
   --secondaryFontColor: #666666;
 
@@ -12,7 +13,7 @@
   --loveCircleColor: #ffacac;
 
   --testimonialTitleColor: #1f5b2d;
-  --testimonialBackgroundColor: #dbfcf1;
-  --testimonialEmojiColor: #79ffb1;
+  --testimonialBackgroundColor: #e7fff7;
+  --testimonialEmojiColor: #00a400;
   --testimonialBorderColor: #047900;
 }

@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: auto;
+  height: 300px;
   width: 90%;
   gap: 20px;
   background-color: var(--sectionBackgroundColor);
@@ -59,6 +59,6 @@
   }
 
   .testimonial-card {
-    width: 25%;
+    width: 30%;
   }
 }

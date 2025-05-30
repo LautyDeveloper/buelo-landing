@@ -35,7 +35,7 @@
 @media (min-width: 768px) {
   #testimonials {
     padding: 40px 0;
-    gap: 100px;
+    gap: 80px;
   }
   #testimonials .testimonials-header h2 {
     font-size: 3rem;

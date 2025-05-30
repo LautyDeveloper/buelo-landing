@@ -7,7 +7,7 @@
   display: grid;
   place-items: center;
   width: 100%;
-  min-height: calc(100vh - 90px);
+  min-height: calc(100vh);
   background: #d1f5ff;
   background: linear-gradient(
     180deg,
@@ -57,18 +57,6 @@
   gap: 20px;
 }
 
-.hero-container .hero-information .information-buttons button {
-  padding: 5px;
-  width: 50%;
-  border-radius: 10px;
-  border: none;
-  outline: none;
-  background-color: var(--CTAColor);
-  color: white;
-  font-weight: 600;
-  font-size: 1.3rem;
-}
-
 @media (min-width: 768px) {
   .hero-container {
     display: flex;
@@ -78,6 +66,7 @@
   }
   .hero-container .hero-information {
     width: 45%;
+    gap: 60px;
   }
   .hero-container .hero-information .information-text {
     text-align: start;
@@ -143,5 +132,16 @@
     bottom: 10%;
     left: 5%;
     background-color: var(--medicineCircleColor);
+  }
+  .hero-container .hero-information .information-buttons {
+    justify-content: flex-start;
+  }
+
+  .hero-container .hero-information .information-buttons button {
+    padding: 10px 0;
+    width: 30%;
+  }
+  .hero-container .hero-information .information-text h1 {
+    font-size: 3.2rem;
   }
 }

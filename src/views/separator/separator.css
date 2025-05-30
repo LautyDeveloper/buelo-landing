@@ -5,6 +5,8 @@
   display: grid;
   place-items: center;
   gap: 30px;
+  background-color: var(--sectionBackgroundColor);
+  border-bottom: 0.5px solid var(--secondaryFontColor);
 }
 
 .separator .separator-header {
