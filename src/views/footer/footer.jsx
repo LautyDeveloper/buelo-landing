@@ -1,14 +1,13 @@
 import "./footer.css";
+import BueloLogo from "../../components/buelo-logo/buelo-logo";
 
 export default function Footer() {
   return (
     <footer>
       <div className="footer-content">
         <div className="main-footer">
-          <div className="footer-logo">
-            <p>👵</p>
-            <strong>BueloApp</strong>
-          </div>
+          <BueloLogo />
+
           <p>
             Plataforma para coordinar el cuidado de personas mayores en familia.
           </p>

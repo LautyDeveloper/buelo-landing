@@ -9,22 +9,6 @@
   border-bottom: 0.5px solid var(--secondaryFontColor);
 }
 
-.separator .separator-header {
-  display: grid;
-  place-items: center;
-  text-align: center;
-  gap: 10px;
-  width: 100%;
-}
-.separator .separator-header h3 {
-  font-size: 2rem;
-  color: var(--destacatedText);
-}
-.separator .separator-header p {
-  color: var(--secondaryFontColor);
-  font-size: 1.5rem;
-}
-
 .separator .separator-buttons-container {
   display: flex;
   justify-content: space-between;
@@ -43,12 +27,6 @@
 }
 
 @media (min-width: 768px) {
-  .separator .separator-header h3 {
-    font-size: 3rem;
-  }
-  .separator .separator-header p {
-    font-size: 1.8rem;
-  }
   .separator .separator-buttons-container {
     gap: 50px;
   }

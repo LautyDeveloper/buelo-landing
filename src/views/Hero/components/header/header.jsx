@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./header.css";
+import BueloLogo from "../../../../components/buelo-logo/buelo-logo";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,10 +11,7 @@ export default function Header() {
   return (
     <>
       <header>
-        <div className="logo">
-          <p>🤶</p>
-          <p>BueloApp</p>
-        </div>
+        <BueloLogo />
 
         <button className="hamburger" onClick={toggleMenu}>
           {isMenuOpen ? "❌" : "☰"}

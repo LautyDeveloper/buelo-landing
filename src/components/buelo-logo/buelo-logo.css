@@ -1,0 +1,29 @@
+.buelo-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.buelo-logo .emoji-container {
+  background-color: #76a1ff;
+  padding: 5px;
+  font-size: 2rem;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+}
+
+.buelo-logo .text-container {
+  display: grid;
+  place-items: center;
+}
+.buelo-logo .text-container h1 {
+  background: linear-gradient(
+    30deg,
+    #76a1ff,
+    var(--CTAColor)
+  ); /* elegí los colores que quieras */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
