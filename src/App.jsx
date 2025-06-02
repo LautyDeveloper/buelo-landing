@@ -5,6 +5,7 @@ import "./css/vars.css";
 import Testimonials from "./views/testimonials/testimonials";
 import Separator from "./views/separator/separator";
 import Footer from "./views/footer/footer";
+import FAQs from "./views/FAQs/faqs";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutUs />
       <Testimonials />
       <Separator />
+      <FAQs />
       <Footer />
     </>
   );

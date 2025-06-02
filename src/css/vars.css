@@ -16,4 +16,9 @@
   --testimonialBackgroundColor: #e7fff7;
   --testimonialEmojiColor: #00a400;
   --testimonialBorderColor: #047900;
+
+  --faqsBackgroundColor: #d7eefa;
+  --faqQuestionColor: #439ecf;
+  --faqBorderColor:#006992;
+  --faqShadowColor: rgb(36, 132, 170);
 }
