@@ -2,7 +2,7 @@
   background-color: var(--sectionBackgroundColor);
   border: 1px solid var(--faqBorderColor);
   border-radius: 10px;
-  padding: 1rem;
+  padding: 10px 20px;
   transition: box-shadow 0.2s ease;
   cursor: pointer;
 }
@@ -31,13 +31,13 @@
 }
 
 @media (min-width: 768px) {
-  .faq-item:hover{
+  .faq-item:hover {
     box-shadow: 1px 1px 10px var(--faqShadowColor);
   }
   .faq-question {
-  font-size: 1.7rem;
-}
-.faq-answer {
-  font-size: 1.3rem;
-}
+    font-size: 1.5rem;
+  }
+  .faq-answer {
+    font-size: 1.2rem;
+  }
 }
