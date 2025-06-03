@@ -1,7 +1,7 @@
 .testimonial-card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 300px;
   width: 90%;
@@ -54,11 +54,36 @@
 }
 
 @media (min-width: 768px) {
+  .testimonial-card {
+    width: 27%;
+    gap: 20px;
+    height: 250px;
+  }
+
+  .testimonial-card .text-container {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
   .testimonial-card .testimonial-header {
     justify-content: flex-start;
   }
 
-  .testimonial-card {
-    width: 30%;
+  .testimonial-card .testimonial-header .emoji-container {
+    font-size: 1.8rem;
+    width: 60px;
+    height: 60px;
+  }
+
+  .testimonial-card .testimonial-header .nombre-container {
+    gap: 0;
+  }
+
+  .testimonial-card .testimonial-header .nombre-container strong {
+    font-size: 1.5rem;
+  }
+  .testimonial-card .testimonial-header .nombre-container p {
+    font-size: 1.1rem;
+    font-weight: 600;
   }
 }
