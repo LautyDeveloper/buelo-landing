@@ -69,7 +69,7 @@
   }
   .hero-container .hero-information {
     width: 45%;
-    gap: 60px;
+    gap: 40px;
   }
   .hero-container .hero-information .information-text {
     text-align: start;

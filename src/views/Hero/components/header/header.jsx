@@ -26,18 +26,18 @@ export default function Header() {
                 </a>
               </li>
               <li>
-                <a href="#funcionalidades" onClick={closeMenu}>
+                <a href="#about-us" onClick={closeMenu}>
                   Funcionalidades
                 </a>
               </li>
               <li>
-                <a href="#testimonios" onClick={closeMenu}>
+                <a href="#testimonials" onClick={closeMenu}>
                   Testimonios
                 </a>
               </li>
               <li>
-                <a href="#contacto" onClick={closeMenu}>
-                  Contacto
+                <a href="#faqs" onClick={closeMenu}>
+                  FAQ´s
                 </a>
               </li>
             </ul>

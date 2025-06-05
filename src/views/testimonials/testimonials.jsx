@@ -7,9 +7,9 @@ export default function Testimonials() {
   return (
     <div id="testimonials">
       <SectionsHeader
-        title={"Lo que dicen nuestros Usuarios"}
+        title={"Testimonios de quienes ya usan BueloApp"}
         phrase={
-          "Familias que confían en BueloApp para el cuidado de sus seres queridos."
+          "Conocé cómo ayudamos a familias reales en el cuidado de sus adultos mayores."
         }
         titleColor={"var(--testimonialTitleColor)"}
       />

@@ -6,9 +6,9 @@ export default function FAQs() {
   return (
     <div id="faqs">
       <SectionsHeader
-        title={"Preguntas Frecuentes"}
+        title={"¿Tenés dudas?"}
         phrase={
-          "Resolvemos las dudas más comunes sobre BueloApp y cómo puede ayudar a tu familia."
+          "Respondemos lo más preguntado sobre BueloApp y cómo puede ayudarte a vos y tu familia."
         }
         titleColor={"var(--destacatedText)"}
       />

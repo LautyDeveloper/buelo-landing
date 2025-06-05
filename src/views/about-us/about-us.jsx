@@ -7,9 +7,11 @@ export default function AboutUs() {
   return (
     <div id="about-us">
       <SectionsHeader
-        title={"Todo lo que necesitas para cuidar a tus seres queridos."}
+        title={
+          "Todo lo que tu familia necesita para cuidar con amor a sus mayores."
+        }
         phrase={
-          "BueloApp ofrece herramientas simples pero poderosas para coordinar el cuidado familiar."
+          "Con herramientas simples y efectivas, BueloApp hace que el cuidado familiar sea más fácil para todos."
         }
         titleColor={"var(-- destacatedText)"}
       />

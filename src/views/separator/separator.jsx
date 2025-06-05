@@ -4,16 +4,16 @@ export default function Separator() {
   return (
     <div className="separator">
       <SectionsHeader
-        title={"Comienza a cuidar mejor a tus seres queridos"}
+        title={"Un mejor cuidado empieza con un clic"}
         phrase={
-          "Regístrate gratis y descubre cómo BueloApp puede ayudar a tu familia."
+          "Probá BueloApp gratis y empezá a acompañar mejor a quienes más lo necesitan."
         }
         titleColor={"var(--primaryFontColor)"}
       />
 
       <div className="separator-buttons-container">
-        <button>Crear Cuenta Gratis</button>
-        <button>Contactar Soporte</button>
+        <button>Empezar a cuidar mejor</button>
+        <button>Consultar dudas</button>
       </div>
     </div>
   );
