@@ -62,7 +62,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="aside-footer">
-        <p>© 2023 BueloApp. Todos los derechos reservados.</p>
+        <p>© 2025 BueloApp. Todos los derechos reservados.</p>
       </div>
     </footer>
   );

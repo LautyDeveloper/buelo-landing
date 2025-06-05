@@ -63,7 +63,7 @@ nav ul li a {
   color: var(--primaryFontColor);
   font-weight: 500;
   transition: all 0.3s ease;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 nav ul li a:hover {
@@ -105,8 +105,9 @@ nav ul li a:hover {
 /* Recién en pantallas grandes lo mostramos fijo y escondemos hamburguesa */
 @media (min-width: 768px) {
   header {
-    background: linear-gradient(rgba(0, 0, 0, 0.1));
+    background: linear-gradient(rgba(238, 243, 247, 0.8));
     backdrop-filter: blur(10px);
+    border-bottom: 1px solid #ddd;
   }
   .hamburger {
     display: none;

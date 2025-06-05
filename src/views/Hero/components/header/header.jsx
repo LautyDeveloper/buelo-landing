@@ -13,9 +13,9 @@ export default function Header() {
       <header>
         <BueloLogo />
 
-        <button className="hamburger" onClick={toggleMenu}>
+        <p className="hamburger" onClick={toggleMenu}>
           {isMenuOpen ? "❌" : "☰"}
-        </button>
+        </p>
 
         <div className={`nav-container ${isMenuOpen ? "open" : ""}`}>
           <nav>
