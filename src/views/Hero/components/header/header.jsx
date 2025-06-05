@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./header.css";
+import BueloLogo from "../../../../components/buelo-logo/buelo-logo";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,14 +11,11 @@ export default function Header() {
   return (
     <>
       <header>
-        <div className="logo">
-          <p>🤶</p>
-          <p>BueloApp</p>
-        </div>
+        <BueloLogo />
 
-        <button className="hamburger" onClick={toggleMenu}>
+        <p className="hamburger" onClick={toggleMenu}>
           {isMenuOpen ? "❌" : "☰"}
-        </button>
+        </p>
 
         <div className={`nav-container ${isMenuOpen ? "open" : ""}`}>
           <nav>
@@ -28,18 +26,18 @@ export default function Header() {
                 </a>
               </li>
               <li>
-                <a href="#funcionalidades" onClick={closeMenu}>
+                <a href="#about-us" onClick={closeMenu}>
                   Funcionalidades
                 </a>
               </li>
               <li>
-                <a href="#testimonios" onClick={closeMenu}>
+                <a href="#testimonials" onClick={closeMenu}>
                   Testimonios
                 </a>
               </li>
               <li>
-                <a href="#contacto" onClick={closeMenu}>
-                  Contacto
+                <a href="#faqs" onClick={closeMenu}>
+                  FAQ´s
                 </a>
               </li>
             </ul>
