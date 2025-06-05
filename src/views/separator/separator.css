@@ -15,23 +15,9 @@
   align-items: center;
   gap: 30px;
 }
-.separator .separator-buttons-container button {
-  padding: 15px 20px;
-  font-size: 1rem;
-  border: none;
-  outline: none;
-  background-color: var(--CTAColor);
-  color: white;
-  font-weight: 700;
-  border-radius: 10px;
-}
 
 @media (min-width: 768px) {
   .separator .separator-buttons-container {
     gap: 50px;
-  }
-  .separator .separator-buttons-container button {
-    font-size: 1.2rem;
-    padding: 10px 15px;
   }
 }

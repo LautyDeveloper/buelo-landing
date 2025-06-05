@@ -56,6 +56,9 @@
   align-items: center;
   gap: 20px;
 }
+.hero-container .hero-information .information-buttons button {
+  width: 50%;
+}
 
 @media (min-width: 768px) {
   .hero-container {
@@ -136,9 +139,7 @@
   .hero-container .hero-information .information-buttons {
     justify-content: flex-start;
   }
-
   .hero-container .hero-information .information-buttons button {
-    padding: 10px 0;
     width: 30%;
   }
   .hero-container .hero-information .information-text h1 {
