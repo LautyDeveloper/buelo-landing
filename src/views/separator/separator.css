@@ -11,13 +11,20 @@
 
 .separator .separator-buttons-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  width: 100%;
   gap: 30px;
+}
+.separator .separator-buttons-container button {
+  width: 50%;
 }
 
 @media (min-width: 768px) {
   .separator .separator-buttons-container {
     gap: 50px;
+  }
+  .separator .separator-buttons-container button {
+    width: 20%;
   }
 }
