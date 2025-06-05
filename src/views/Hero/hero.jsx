@@ -5,13 +5,14 @@ export default function Hero() {
   return (
     <div className="container">
       <Header />
-      <div className="hero-container">
+      <div className="hero-container" id="inicio">
         <div className="hero-information">
           <div className="information-text">
-            <h1>Cuidado Familiar coordinado para tus seres queridos</h1>
+            <h1>El bienestar de tus abuelos, en manos de toda la familia</h1>
             <p>
-              BueloApp te ayuda a organizar el cuidado de tus familiares mayores
-              con herramientas simples y efectivas para toda la familia.
+              Cuidar a quienes más amás no debe ser complicado. Con BueloApp, la
+              familia puede organizarse fácil para acompañar a las personas
+              mayores con cariño y coordinación.
             </p>
           </div>
           <div className="information-buttons">
