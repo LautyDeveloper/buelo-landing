@@ -1,5 +1,5 @@
 import FAQ from "./components/faq/faq.jsx";
-import faqs from "./data/faqs";
+import faqs from "./data/faqs.js";
 import "./faqs.css";
 import SectionsHeader from "../../components/sections-header/sections-header.jsx";
 export default function FAQs() {

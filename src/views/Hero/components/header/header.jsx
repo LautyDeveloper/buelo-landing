@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./header.css";
-import BueloLogo from "../../../../components/buelo-logo/buelo-logo";
+import BueloLogo from "../../../../components/buelo-logo/buelo-logo.jsx";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

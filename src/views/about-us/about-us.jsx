@@ -1,7 +1,7 @@
-import SectionsHeader from "../../components/sections-header/sections-header";
+import SectionsHeader from "../../components/sections-header/sections-header.jsx";
 import "./about-us.css";
-import Card from "./components/card";
-import { aboutFeatures } from "./data/aboutFeatures";
+import Card from "./components/card.jsx";
+import { aboutFeatures } from "./data/aboutFeatures.js";
 
 export default function AboutUs() {
   return (

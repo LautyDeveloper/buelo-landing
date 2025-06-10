@@ -1,7 +1,7 @@
 import "./testimonials.css";
-import testimonialsData from "./data/testimonialsData";
-import TestimonialCard from "./components/testimonial-card/testimonial-card";
-import SectionsHeader from "../../components/sections-header/sections-header";
+import testimonialsData from "./data/testimonialsData.js";
+import TestimonialCard from "./components/testimonial-card/testimonial-card.jsx";
+import SectionsHeader from "../../components/sections-header/sections-header.jsx";
 
 export default function Testimonials() {
   return (

@@ -1,5 +1,5 @@
 import "./separator.css";
-import SectionsHeader from "../../components/sections-header/sections-header";
+import SectionsHeader from "../../components/sections-header/sections-header.jsx";
 export default function Separator() {
   return (
     <div className="separator">

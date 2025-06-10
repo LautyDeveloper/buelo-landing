@@ -1,5 +1,5 @@
 import "./footer.css";
-import BueloLogo from "../../components/buelo-logo/buelo-logo";
+import BueloLogo from "../../components/buelo-logo/buelo-logo.jsx";
 
 export default function Footer() {
   return (

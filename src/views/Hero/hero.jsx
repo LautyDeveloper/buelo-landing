@@ -1,4 +1,4 @@
-import Header from "./components/header/header";
+import Header from "./components/header/header.jsx";
 import "./hero.css";
 
 export default function Hero() {
